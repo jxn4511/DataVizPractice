@@ -27,7 +27,7 @@ function drawBarChart(res) {
     trace2.x = [];
 
     for (let i = 0; i < res.length; i++) {
-        trace2.x.push(res[i]["公路總計"]);
+        trace2.x.push(res[i]["公路統計"]);
     }
     console.log(trace2.x);
 
