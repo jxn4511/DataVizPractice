@@ -8,6 +8,7 @@ d3.csv('1131845784304619520.csv').then(
 );
 
 function drawBarChart(res) {
+    console.log(res);
     let myGraph = document.getElementById('myGraph');
 
     let trace1 = {};
